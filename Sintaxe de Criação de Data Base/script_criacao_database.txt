@@ -1,0 +1,1 @@
+create database banco_de_dados_exemplo;

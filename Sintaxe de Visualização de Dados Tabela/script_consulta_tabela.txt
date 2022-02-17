@@ -1,0 +1,8 @@
+# O sinal de (*) mostra tudo que estiver na tabela
+
+
+select * from tabela_exemplo_criacao;
+
+#Você pode selecionar o que deseja, colocando o atributo especifício, exemplo abaixo:
+
+select nome from tabela_exemplo_criacao;

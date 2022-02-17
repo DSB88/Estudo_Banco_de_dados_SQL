@@ -1,0 +1,21 @@
+#Existe duas formas de criar, o primeiro exemplo abaixo.
+
+create table banco_de_dados_exemplo.tabela_exemplo_criacao(
+ id bigint primary key auto_increment,
+ nome varchar(100),
+ email varchar (50),
+ data_nascimento date
+) engine=InnoDB;
+
+#O segundo exemplo.
+
+#Para garantir usar o banco certo.
+
+use banco_de_dados_exemplo;
+
+tabela_exemplo_criacao(
+ id bigint primary key auto_increment,
+ nome varchar(100),
+ email varchar (50),
+ data_nascimento date
+) engine=InnoDB;

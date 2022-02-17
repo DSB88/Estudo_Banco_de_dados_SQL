@@ -1,0 +1,4 @@
+#Exemplo de dados, detalhe importate a data no MySQL segue o padrão YYYY-MM-DD
+
+insert tabela_exemplo_criacao (nome, email, data_nascimento) 
+ values ('Diego Brandão', 'diego.brandao@email.com', '1988-07-21')

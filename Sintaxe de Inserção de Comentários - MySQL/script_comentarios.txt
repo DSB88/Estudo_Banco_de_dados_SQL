@@ -1,0 +1,5 @@
+#Esta é uma forma de inserir comentários
+
+/* Está é outra forma de incluir comentários */
+
+-- outra forma, requer que pelo menos um espaço após o código --!
