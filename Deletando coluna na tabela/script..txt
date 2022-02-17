@@ -1,0 +1,11 @@
+select * from nome_tabela
+
+delete from nome_tabela
+where nome_coluna
+
+#Exemplo
+
+select * from pedido
+
+delete from pedido
+where cliente_id is null

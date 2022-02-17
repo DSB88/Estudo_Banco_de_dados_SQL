@@ -1,0 +1,15 @@
+select current_user()
+
+ 
+alter table nome_da_tabela
+ add column nome_da_coluna
+
+#Exemplos:
+
+alter table pedido
+ add column forma_pagamento varchar(20) not null
+ 
+alter table pedido
+ add column status varchar(20) not null default 'ORCAMENTO'
+ 
+

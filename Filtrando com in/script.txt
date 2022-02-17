@@ -1,0 +1,10 @@
+#Sintaxe
+
+select * from nome_tabela
+ where id in (3,4)
+ 
+
+#Exemplo
+
+select * from produto
+ where id in (3,4)

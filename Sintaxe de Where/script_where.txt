@@ -1,0 +1,15 @@
+#where = usado para consultas específicas
+
+#exemplo
+
+
+select * from cliente
+where nome = 'Joao Silva';
+
+select * from cliente
+where data_nascimento >= '1991-01-21';
+
+select * from pedido
+where observacao is not null
+ and valor_total > 200;
+

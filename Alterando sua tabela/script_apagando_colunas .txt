@@ -1,0 +1,4 @@
+select current_user()
+
+alter table nome_da_tabela
+ drop column nome_da_coluna

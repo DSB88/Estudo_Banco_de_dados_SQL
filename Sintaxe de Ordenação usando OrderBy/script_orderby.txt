@@ -1,0 +1,12 @@
+#Sintaxe ordem ascendente
+select *from nome_tabela
+order by nome_coluna asc
+
+#Sintaxe ordem descendente
+select *from nome_tabela
+order by nome_coluna desc
+
+#Exemplo
+
+select *from cliente
+order by nome asc

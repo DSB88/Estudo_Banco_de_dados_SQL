@@ -1,0 +1,11 @@
+#Sintaxe
+
+select distinct nome_coluna
+ from nome_tabela
+ order by nome_coluna
+
+#Exemplo
+
+select distinct data_entrega
+ from pedido
+ order by data_entrega

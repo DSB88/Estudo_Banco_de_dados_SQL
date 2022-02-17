@@ -1,0 +1,12 @@
+select * from nome_tabela
+
+update nome_tabela
+set nome_coluna = 'mensagem'
+
+#Exemplo
+
+select * from pedido
+
+update pedido
+set status = 'EMITIDO'
+where forma_pagamento != ''

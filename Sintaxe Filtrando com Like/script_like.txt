@@ -1,0 +1,9 @@
+#Usado para filtrar a partir de uma parte do conteúdo
+
+#Sintaxe
+select * from nome_tabela
+ where nome like 'pedaco_do_nome%';
+
+#Exemplo
+select * from cliente
+ where nome like 'mar%';
